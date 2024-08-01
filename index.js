@@ -99,8 +99,8 @@ console.log(CemberinAlani(15, pi))
   
 
 // 3a çözümü
-let enkucuk = 0;
-let enbuyuk = 0;
+let enkucuk = sayilar[0];
+let enbuyuk = sayilar[0];
 for (let i = 0; i < sayilar.length; i++) {
   let currentNumber = sayilar[i];
   if (currentNumber > enbuyuk) {
